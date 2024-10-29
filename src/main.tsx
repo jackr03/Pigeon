@@ -1,11 +1,10 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import App from './App.tsx';
 import ErrorPage from "./routes/ErrorPage.tsx";
-import EnterCode from "./routes/EnterCode.tsx";
-import Room from "./routes/Room.tsx";
 import Home from "./routes/Home.tsx";
+import Room from "./routes/Room.tsx";
 
 const router = createBrowserRouter([
     {
@@ -18,18 +17,10 @@ const router = createBrowserRouter([
                 element: <Home />
             },
             {
-                path: "/entercode",
-                element: <EnterCode />
-            },
-            {
                 path: "/room",
                 element: <Room />
             }
         ]
-    },
-    {
-        path: "/entercode",
-        element: <EnterCode/>,
     },
     {
         path: "/room",
