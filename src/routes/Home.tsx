@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Guest from '../components/Guest';
+import PinForm from '../components/PinForm.tsx';
 import NavBar from "./NavBar.tsx";
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
                 </div>
                 )}
 
-                {isHost === false && <Guest />}
+                {isHost === false && <PinForm />}
             </main>
         </>
     );
