@@ -7,7 +7,7 @@ export default function Home() {
 
     return (
         <>
-            <NavBar/>
+            <NavBar />
             <main className='min-h-screen flex flex-col justify-center items-center'>
                 {isHost === undefined && (
                 <div className='flex'>
