@@ -3,7 +3,7 @@ import NavBar from "./NavBar.tsx";
 export default function EnterCode() {
     return (
         <>
-            <NavBar/>
+            <NavBar />
             <div>
                 <h1>
                     Enter Code

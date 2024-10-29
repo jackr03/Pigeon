@@ -4,11 +4,8 @@ function App() {
 
   return (
       <>
-        <div>
-          <Outlet/>
-        </div>
+          <Outlet />
       </>
-
   );
 }
 export default App
