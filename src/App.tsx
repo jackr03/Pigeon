@@ -1,10 +1,14 @@
 import './App.css'
-
+import { Outlet} from "react-router-dom";
 function App() {
 
   return (
-    <h1 className='p-4 bg-blue-500 text-white font-bold'>Test</h1>
-  )
-}
+      <>
+        <div>
+          <Outlet/>
+        </div>
+      </>
 
+  );
+}
 export default App
